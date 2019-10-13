@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>icalToImage</name>
+    </assembly>
+    <members>
+        <member name="T:icalToImage.Converter">
+            <summary>
+            Main class to convert a calendar to an image.
+            </summary>
+        </member>
+        <member name="M:icalToImage.Converter.#ctor">
+            <summary>
+            Constructor.
+            </summary>
+        </member>
+        <member name="M:icalToImage.Converter.#ctor(Ical.Net.Calendar)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="calendar">calendar to convert</param>
+        </member>
+        <member name="M:icalToImage.Converter.#ctor(System.Uri)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="uri">Uri from which to get the calendar</param>
+        </member>
+        <member name="M:icalToImage.Converter.#ctor(System.String)">
+            <summary>
+            Constructor
+            </summary>
+            <param name="icalendar">String containing the data</param>
+        </member>
+        <member name="P:icalToImage.Converter.Calendar">
+            <summary>
+            Calendar to convert
+            </summary>
+        </member>
+        <member name="P:icalToImage.Converter.Culture">
+            <summary>
+            Culture used to generate the image.
+            </summary>
+        </member>
+        <member name="M:icalToImage.Converter.ChangeCSS(icalToImage.Converter.Tag,System.String)">
+            <summary>
+            Change the css to use for the generated image. (The calendar is first covnerted into html).
+            </summary>
+            <param name="tag"></param>
+            <param name="css"></param>
+        </member>
+        <member name="M:icalToImage.Converter.ConvertRangeToBitmap(System.UInt32,System.DateTime,System.DateTime)">
+            <summary>
+            Generate the image from the calendar.
+            </summary>
+            <param name="width">Width of the image</param>
+            <param name="firstDay">first day of the range</param>
+            <param name="lastDay">last day of the range</param>
+            <returns>image</returns>
+        </member>
+        <member name="M:icalToImage.Converter.ConvertToBitmap(System.UInt32,System.DateTime[])">
+            <summary>
+            Generate the image from the calendar.
+            </summary>
+            <param name="width">Width of the image</param>
+            <param name="days">days to display</param>
+            <exception cref="T:System.NullReferenceException">days is null</exception>
+            <returns>image</returns>
+        </member>
+    </members>
+</doc>
