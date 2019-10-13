@@ -10,7 +10,7 @@ using System.IO;
 using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 
-namespace icalToImage
+namespace IcalToImage
 {
     /// <summary>
     /// Main class to convert a calendar to an image.

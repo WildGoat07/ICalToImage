@@ -5,8 +5,8 @@
     <TargetFramework>netcoreapp3.0</TargetFramework>
     <ApplicationIcon />
     <StartupObject />
-    <RootNamespace>icalToImage</RootNamespace>
-    <AssemblyName>icalToImage</AssemblyName>
+    <RootNamespace>IcalToImage</RootNamespace>
+    <AssemblyName>IcalToImage</AssemblyName>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
