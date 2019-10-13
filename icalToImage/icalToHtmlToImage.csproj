@@ -7,6 +7,16 @@
     <StartupObject />
     <RootNamespace>IcalToImage</RootNamespace>
     <AssemblyName>IcalToImage</AssemblyName>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/WildGoat07/ICalToImage</PackageProjectUrl>
+    <AssemblyVersion>0.1.0.0</AssemblyVersion>
+    <FileVersion>0.1.0.0</FileVersion>
+    <Version>0.1.0</Version>
+    <Authors>Nathan HANEN</Authors>
+    <Description>Generate an image of a table from a calendar.</Description>
+    <PackageId>IcalToImage</PackageId>
+    <Product>IcalToImage</Product>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -22,5 +32,12 @@
     <PackageReference Include="Ical.Net" Version="4.1.11" />
     <PackageReference Include="NodaTime" Version="2.4.7" />
     <PackageReference Include="System.Drawing.Common" Version="4.6.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 </Project>
