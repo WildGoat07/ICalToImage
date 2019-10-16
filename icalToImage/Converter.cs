@@ -64,13 +64,15 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
 @"max-width: 160px;
 border: 1px solid black;
 text-align: center;
-padding: 5px;";
+padding: 5px;
+width: 85px;";
             CSS[Tag.EMPTY_CELLS] =
 @"border: none;
 border-right: 1px solid black;
 background-color: lightgrey;";
             CSS[Tag.HEAD_CELLS] =
-@"font-weight: bold;";
+@"font-weight: bold;
+height: 41px;";
             CSS[Tag.ROWS] =
 @"flex: 1;";
             CSS[Tag.BODY] =
